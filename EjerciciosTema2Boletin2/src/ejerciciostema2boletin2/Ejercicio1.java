@@ -15,22 +15,28 @@ public class Ejercicio1 {
 		nota = dogma.nextInt();
 		
 		switch (nota) {
+		
 			case 0,1,2,3,4: 
 				System.out.print("INSUFICIENTE");
 				break;
+				
 			case 5:
 				System.out.print("SUFICIENTE");
 				break;
+				
 			case 6:
 				System.out.print("BIEN");
-				break;	
+				break;
+				
 			case 7,8:
 				System.out.print("NOTABLE");
-				break;		
+				break;	
+				
 			case 9,10:
 				System.out.print("SOBRESALIENTE");
 				break;	
-				default:
+				
+			default:
 				System.out.print("Error de seleccion, introduzca un numero entero entre: 0 y 10");
 		}
 

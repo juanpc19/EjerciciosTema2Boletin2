@@ -17,28 +17,36 @@ public class Ejercicio2 {
 		diaSemana = dogma.nextInt();
 		
 		switch (diaSemana) {
+		
 			case 1:
 				System.out.print("LUNES");
 				break;
+				
 			case 2:
 				System.out.print("MARTES");
 				break;
+				
 			case 3:
 				System.out.print("MIERCOLES");
 				break;
+				
 			case 4:
 				System.out.print("JUEVES");
 				break;
+				
 			case 5:
 				System.out.print("VIERNES");
 				break;
+				
 			case 6:
 				System.out.print("SABADO");
 				break;
+				
 			case 7:
 				System.out.print("DOMINGO");
 				break;
-				default:
+				
+			default:
 				System.out.print("Error de seleccion, introduzca: LUNES 1, MARTES 2, MIERCOLES 3, JUEVES 4, VIERNES 5, SABADO 6 o DOMINGO 7");
 		}
 		

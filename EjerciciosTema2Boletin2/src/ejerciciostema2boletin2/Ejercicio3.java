@@ -24,9 +24,10 @@ public class Ejercicio3 {
 		
 		System.out.print("Seleccione que operacion quiere llevar a cabo de la lista anterior: ");
 		
-		seleccion=dogma.next();
+		seleccion = dogma.next();
 		
 		switch (seleccion) {
+		
 			case "A":
 			System.out.print("La suma de ambos numeros es: " + (numero1+numero2));
 			break;
