@@ -7,7 +7,7 @@ public class Ejercicio3 {
 	public static void main(String[] args) {
 
 		int numero1, numero2;
-		String A, B, C, D, seleccion;
+		String seleccion;
 		
 		Scanner dogma = new Scanner(System.in);
 		
@@ -44,7 +44,7 @@ public class Ejercicio3 {
 			break;
 			
 			default:
-			System.out.print("Error de seleccion, seleccione A,B,C o D");
+			System.out.print("Error de seleccion, introduzca: A, B, C o D");
 		}
 
 		dogma.close();

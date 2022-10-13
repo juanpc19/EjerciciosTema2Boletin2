@@ -7,6 +7,7 @@ public class Ejercicio1 {
 	public static void main(String[] args) {
 
 		int nota;
+		
 		Scanner dogma = new Scanner(System.in);
 		
 		System.out.print("Introduzca la nota con un numero entero entre 0 y 10: ");
@@ -29,6 +30,8 @@ public class Ejercicio1 {
 			case 9,10:
 				System.out.print("SOBRESALIENTE");
 				break;	
+				default:
+				System.out.print("Error de seleccion, introduzca un numero entero entre: 0 y 10");
 		}
 
 		dogma.close();	

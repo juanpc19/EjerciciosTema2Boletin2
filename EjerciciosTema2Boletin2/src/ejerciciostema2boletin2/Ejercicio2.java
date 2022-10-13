@@ -10,7 +10,9 @@ public class Ejercicio2 {
 		
 		Scanner dogma = new Scanner(System.in);
 		
-		System.out.print("Introduzca dia de la semana usando uno de los numeros correspondientes mostrados \na continuacion: LUNES 1, MARTES 2, MIERCOLES 3, JUEVES 4, VIERNES 5, SABADO 6, DOMINGO 7 ");
+		System.out.print("Introduzca dia de la semana usando uno de los numeros correspondientes "
+		+ "mostrados a continuacion: LUNES 1, MARTES 2, \nMIERCOLES 3, JUEVES 4, "
+		+ "VIERNES 5, SABADO 6, DOMINGO 7 ");
 		
 		diaSemana = dogma.nextInt();
 		
@@ -36,6 +38,8 @@ public class Ejercicio2 {
 			case 7:
 				System.out.print("DOMINGO");
 				break;
+				default:
+				System.out.print("Error de seleccion, introduzca: LUNES 1, MARTES 2, MIERCOLES 3, JUEVES 4, VIERNES 5, SABADO 6 o DOMINGO 7");
 		}
 		
 		dogma.close();
